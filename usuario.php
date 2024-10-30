@@ -99,6 +99,10 @@ $conn->close(); // Cerrar conexión a la base de datos
             <label for="contrasenya">Contraseña (dejar en blanco para no cambiarla):</label>
             <input type="password" id="contrasenya" name="contrasenya" autocomplete="new-password">
 
+            <!-- Campo para confirmar la nueva contraseña -->
+            <label for="confirmar_contrasenya">Confirmar Contraseña:</label>
+            <input type="password" id="confirmar_contrasenya" name="confirmar_contrasenya" autocomplete="new-password">
+
             <!-- Botón de envío del formulario -->
             <button type="submit">Actualizar Datos</button>
         </form>
